@@ -12,7 +12,7 @@
 	<li><a href="#">导航链接四</a></li>
 </ul>
 
-<article>
+<article><!-- <article> 标签规定独立的自包含内容 -->
 	<h2>文章一级标题</h2>
 	<h3>文章二级标题</h3>
 	<p>文章作者&nbsp;文章发表时间</p>
@@ -88,33 +88,34 @@
 		</tr>
 	</table>
 </article>
-<aside>
+<aside><!-- 侧栏，这是HTML5新增的侧栏标签 -->
 	<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-	<h3>侧栏注册窗标题</h3>
-	<form action="#" method="post">
-		<label for="email">请输入邮箱地址：</label>
-		<input type="text" id="email" value="这是一个文本输入框"><br/>
-		<p>邮箱地址请按要求格式输入</p>
-		请输入密码：<input type="password" value="这是一个文本输入框">
-		请重复输入密码：<input type="password" value="这是一个文本输入框">
-		<br/>
-		密码请为6-16位英文数字<br/>
-		性别：<input type="radio" name="sex" value="男" checked>男
-			  <input type="radio" name="sex" value="女">女
+	<h3>侧栏注册窗口标题</h3>
+	<from action="#" method="post">
+		<label>请输出邮箱地址：</label><input type="text" name="youxinag" value="这是一个文本输入框"><br/>
+		<span>邮箱地址请按要求格式输入</span><br/>
+		<lable>请输入密码：</lable><input type="password" name="psw1"><lable>请重复输入密码：</lable><input type="password" name="pasw2"><br/>
+		<span>密码请为6-16位英文数字</span><br/>
+		<label>性别：</label>
+		<input type="radio" name="sex" value="male" checked>男
+		<input type="radio" name="sex" value="female">女
 		&nbsp;
-		城市：<select name="city">
-				<option value="beijing">北京</option>
-				<option value="shanghai">上海</option>
-				<option value="guangzhou">广州</option>
-			  </select>
-		爱好：<input type="checkbox" name="hobby" value="运动">运动
-			  <input type="checkbox" name="hobby" value="艺术">艺术
-			  <input type="checkbox" name="hobby" value="科学">科学
+		<lable>城市</lable>
+		<select name="city">
+			<option value="BJ">北京</option>
+			<option value="SH">上海</option>
+			<option value="SJ">深圳</option>
+		</select>
+		<lable>爱好：</lable>
+			<input type="checkbox" name="love" value="yundong">运动
+			<input type="checkbox" name="love" value="yishu">艺术
+			<input type="checkbox" name="love" value="kexue">科学
 		&nbsp;
-		个人描述：<textarea rows="2" cols="15">这是一个多行输入框，输入您的个人描述</textarea>
+		<lable>个人描述：</lable>
+			<textarea name="miaoshu" row="3" cols="20">这是一个多行输入框，输入您的个人描述</textarea>
 		<input type="submit" value="确认提交">
-	</form>
-</aside>>
+	</from>
+</aside>
 <footer>
 	<span>版权所有&copy;</span>
 </footer>
