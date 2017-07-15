@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:14px;
+	font-family: 'Microsoft YaHei';
+}
+
+/*头部********************************************************/
+header{
+	height:60px;
+	background:yellow;
+	position:relative;
+}
+header img{
+	width:60px;
+	margin-left:10px;
+}
+
+/*导航*/
+header ul{
+	position:absolute;
+	top:0;
+	right:5px;
+}
+header ul li{
+	float:left;
+	height:60px;
+	line-height:60px;
+	text-align:center;
+	margin-right:20px;
+}
+header ul li a{
+	display:block;
+	font-size:12px;
+	text-decoration: none;
+	color:white;
+}
+header ul li a:hover{
+	color:#333;
+	background:#FF8000;
+	border-bottom:1px solid #474747;
+	border-radius:3px;
+}
+
+/*主体***************************************/
+.p{
+	margin:20px;
+	background:#eee;
+	padding:20px 160px 20px 240px;
+	border:1px solid #999;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.main{
+	width:100%;
+	/*background:red;*/
+	float:left;
+	position:relative;
+	box-sizing:border-box;
+	border:1px solid #999;
+	padding:20px;
+}
+article{
+	margin-top:20px;
+}
+article p{
+	text-indent: 2em;	
+}
+article img{
+	margin-top:20px;
+}
+
+/*左栏****************************************/
+.left{
+	width:200px;
+	/*height:120px;*/
+	/*background:blue;*/
+	border:1px solid #999;
+	float:left;
+	position:relative;
+	margin-left:-100%;
+	left:-220px;
+	box-sizing:border-box;
+	padding:20px;
+}
+#logo{
+	width:80px;
+	height:80px;
+}
+#name{
+	/*position:absolute;
+	top:20px;*/
+	vertical-align:top;
+	font-size:14px;
+}
+
+/*右栏*****************************************/
+.right{
+	width:120px;
+	border:1px solid #999;
+	/*background:yellow;*/
+	float:left;
+	position:relative;
+	margin-left:-120px;
+	right:-140px;
+	box-sizing:border-box;
+	padding:20px;
+}
+.right ul li{
+	list-style-type:none;
+	/*border:1px solid #999;*/
+	width:80px;
+	font-size:14px;
+	text-align: center;
+}
+
+.right ul li img{
+	width:80px;
+}
+
+
+
+/*页脚*/
+footer{
+	height:60px;
+	background:yellow;
+	clear:both;
+	line-height:60px;
+	text-align: center;
+	color:white;
+	font-size:14px;
+}

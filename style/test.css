@@ -1,10 +1,15 @@
-h1{
-	color:blue;
+*{
+	box-sizing:border-box;
 }
-article h2{
-	color:red;
+dl{
+	margin:0;
+	padding:24px 0 0 0;
 }
-article{
-	
-	border:1px solid red;
+dt{
+	background:#B8C1C8;
+	border-bottom:1px solid #989EA4;
+	border-top:1px solid #717D85;
+	color:#FFF;
+	position:sticky;
+	top:-1px;
 }
