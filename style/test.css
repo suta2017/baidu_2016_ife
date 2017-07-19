@@ -1,15 +1,21 @@
 *{
-	box-sizing:border-box;
-}
-dl{
 	margin:0;
-	padding:24px 0 0 0;
+	padding:0;
 }
-dt{
-	background:#B8C1C8;
-	border-bottom:1px solid #989EA4;
-	border-top:1px solid #717D85;
-	color:#FFF;
-	position:sticky;
-	top:-1px;
+main{
+	border:1px solid red;
+	width:500px;
+	height:300px;
+}
+.one{
+	width:100px;
+	height:100px;
+	background:blue;
+	float:left;
+}
+.two{
+	width:100px;
+	height:100px;
+	background:yellow;
+	float:right;
 }
